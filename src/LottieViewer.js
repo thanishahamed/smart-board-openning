@@ -15,7 +15,7 @@ const LottieViewer = ({lottieName, className, loop = true}) => {
                 renderer: 'svg',
                 loop: loop,
                 autoplay: true,
-                animationData: require(`../assets/lotties/${lottieName}.json`)
+                animationData: require(`./assets/lotties/${lottieName}.json`)
             });
         }
     }
